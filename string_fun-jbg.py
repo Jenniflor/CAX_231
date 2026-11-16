@@ -1,0 +1,6 @@
+print("Hi, select a word to analyze.")
+word = str(input("Enter a word: "))
+print(f"The length of the word is: {len(word)}")
+print(f"The word in uppercase is: {word.upper()}", end=" ")
+print(f"The word in lowercase is: {word.lower()}", end=" ") 
+print(f"The word as you entered it is: {word}", end=" ")
